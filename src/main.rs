@@ -1,7 +1,6 @@
 pub mod downloader;
 
-use core::time;
-use std::{env, time::SystemTime};
+use std::env;
 
 use bmbf_quest_utills::*;
 use chrono::Utc;
@@ -26,7 +25,7 @@ async fn main() {
             songs.retain(|song| !existing_hashes.contains(&song.hash));
             println!("Songs to download: {}", songs.len());
 
-            create_dir("songs");
+            create_dir(DOWNLOADED_PATH);
 
             for (index, future) in songs
                 .iter()
@@ -38,7 +37,7 @@ async fn main() {
                             "https://api.beatsaver.com/download/key/{}",
                             song.key.as_ref().unwrap()
                         ),
-                        format!("songs/{}.zip", song.hash),
+                        format!("{}/{}.zip", DOWNLOADED_PATH, song.hash),
                     )
                 })
                 .enumerate()

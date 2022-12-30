@@ -11,6 +11,7 @@ use zip_extract::ZipExtractError;
 
 const CHUNK_SIZE: u64 = 10240;
 pub const UNPACKED_PATH: &str = "songs_unpacked";
+pub const DOWNLOADED_PATH: &str = "songs";
 
 pub async fn download_async(
     client: &reqwest::Client,
@@ -169,9 +170,9 @@ pub fn unpack_songs(songs: &[&Song]) {
 }
 
 pub fn remove_downloaded_songs() {
-    remove_dir("songs")
+    remove_dir(DOWNLOADED_PATH)
 }
 
 pub fn remove_unpacked_songs() {
-    remove_dir("songs_unpacked")
+    remove_dir(UNPACKED_PATH)
 }
