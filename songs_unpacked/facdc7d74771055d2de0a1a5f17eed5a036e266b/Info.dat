@@ -1,0 +1,71 @@
+{
+  "_version": "2.0.0",
+  "_songName": "Last Christmas",
+  "_songSubName": "",
+  "_songAuthorName": "Loveless, Downer Inc., Kellin Quinn",
+  "_levelAuthorName": "Duodecillionare",
+  "_beatsPerMinute": 115,
+  "_shuffle": 0,
+  "_shufflePeriod": 0.5,
+  "_previewStartTime": 36.6,
+  "_previewDuration": 11,
+  "_songFilename": "song.egg",
+  "_coverImageFilename": "cover.jpg",
+  "_environmentName": "BillieEnvironment",
+  "_allDirectionsEnvironmentName": "GlassDesertEnvironment",
+  "_songTimeOffset": 0,
+  "_customData": {
+    "_editors": {
+      "_lastEditedBy": "ChroMapper",
+      "ChroMapper": {
+        "version": "0.8.0"
+      }
+    }
+  },
+  "_difficultyBeatmapSets": [
+    {
+      "_beatmapCharacteristicName": "Standard",
+      "_difficultyBeatmaps": [
+        {
+          "_difficulty": "ExpertPlus",
+          "_difficultyRank": 9,
+          "_beatmapFilename": "ExpertPlusStandard.dat",
+          "_noteJumpMovementSpeed": 19,
+          "_noteJumpStartBeatOffset": 0.4,
+          "_customData": {
+            "_obstacleColor": {
+              "r": 0.8,
+              "g": 0,
+              "b": 0
+            },
+            "_envColorRightBoost": {
+              "r": 0.084,
+              "g": 0.265,
+              "b": 0.926
+            },
+            "_envColorLeftBoost": {
+              "r": 0.901,
+              "g": 0.64,
+              "b": 0
+            },
+            "_envColorRight": {
+              "r": 0.898,
+              "g": 0.898,
+              "b": 0.898
+            },
+            "_colorRight": {
+              "r": 0,
+              "g": 0.459,
+              "b": 0.068
+            },
+            "_colorLeft": {
+              "r": 0.56,
+              "g": 0,
+              "b": 0
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

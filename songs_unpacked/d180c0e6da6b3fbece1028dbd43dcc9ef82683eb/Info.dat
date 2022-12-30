@@ -1,0 +1,83 @@
+{
+  "_version": "2.0.0",
+  "_songName": "Forgotten",
+  "_songSubName": "",
+  "_songAuthorName": "Aethoro",
+  "_levelAuthorName": "Phøenix",
+  "_beatsPerMinute": 200,
+  "_shuffle": 0,
+  "_shufflePeriod": 0.5,
+  "_previewStartTime": 222,
+  "_previewDuration": 16,
+  "_songFilename": "Forgotten.egg",
+  "_coverImageFilename": "cover.jpg",
+  "_environmentName": "BillieEnvironment",
+  "_allDirectionsEnvironmentName": "GlassDesertEnvironment",
+  "_songTimeOffset": 0,
+  "_customData": {
+    "_editors": {
+      "_lastEditedBy": "ChroMapper",
+      "ChroMapper": {
+        "version": "0.8.484"
+      }
+    }
+  },
+  "_difficultyBeatmapSets": [
+    {
+      "_beatmapCharacteristicName": "Standard",
+      "_difficultyBeatmaps": [
+        {
+          "_difficulty": "ExpertPlus",
+          "_difficultyRank": 9,
+          "_beatmapFilename": "ExpertPlusStandard.dat",
+          "_noteJumpMovementSpeed": 15,
+          "_noteJumpStartBeatOffset": 0.1,
+          "_customData": {
+            "_difficultyLabel": "Winter",
+            "_suggestions": [
+              "Chroma"
+            ],
+            "_requirements": [
+              "Noodle Extensions"
+            ],
+            "_obstacleColor": {
+              "r": 0.159,
+              "g": 0.24,
+              "b": 0.672
+            },
+            "_envColorRightBoost": {
+              "r": 0,
+              "g": 0.106,
+              "b": 1
+            },
+            "_envColorLeftBoost": {
+              "r": 0,
+              "g": 0.767,
+              "b": 1
+            },
+            "_envColorRight": {
+              "r": 0,
+              "g": 0.919,
+              "b": 1
+            },
+            "_envColorLeft": {
+              "r": 0,
+              "g": 0.621,
+              "b": 0.418
+            },
+            "_colorRight": {
+              "r": 0,
+              "g": 0.851,
+              "b": 0.926
+            },
+            "_colorLeft": {
+              "r": 0.144,
+              "g": 0.454,
+              "b": 0.337
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

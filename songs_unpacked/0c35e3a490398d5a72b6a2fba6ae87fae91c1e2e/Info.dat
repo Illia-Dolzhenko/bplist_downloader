@@ -1,0 +1,39 @@
+{
+  "_version": "2.0.0",
+  "_songName": "A GHETTO CHRISTMAS CAROL",
+  "_songSubName": "",
+  "_songAuthorName": "XXXTENTACION",
+  "_levelAuthorName": "Gage Corduck",
+  "_beatsPerMinute": 148.19,
+  "_shuffle": 0,
+  "_shufflePeriod": 0.5,
+  "_previewStartTime": 12,
+  "_previewDuration": 10,
+  "_songFilename": "XXXTentacion - A GHETTO CHRISTMAS CAROL.egg",
+  "_coverImageFilename": "500x500-000000-80-0-0 (23).jpg",
+  "_environmentName": "DefaultEnvironment",
+  "_allDirectionsEnvironmentName": "GlassDesertEnvironment",
+  "_songTimeOffset": 0,
+  "_customData": {
+    "_editors": {
+      "_lastEditedBy": "ChroMapper",
+      "ChroMapper": {
+        "version": "0.8.497"
+      }
+    }
+  },
+  "_difficultyBeatmapSets": [
+    {
+      "_beatmapCharacteristicName": "Standard",
+      "_difficultyBeatmaps": [
+        {
+          "_difficulty": "ExpertPlus",
+          "_difficultyRank": 9,
+          "_beatmapFilename": "ExpertPlusStandard.dat",
+          "_noteJumpMovementSpeed": 18,
+          "_noteJumpStartBeatOffset": -0.766
+        }
+      ]
+    }
+  ]
+}

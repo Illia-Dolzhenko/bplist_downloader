@@ -1,0 +1,60 @@
+{
+  "_version": "2.0.0",
+  "_songName": "Padoru Padoru",
+  "_songSubName": "(Nightcore)",
+  "_songAuthorName": "Hatsune Miku",
+  "_levelAuthorName": "BigSlick",
+  "_beatsPerMinute": 121.17,
+  "_shuffle": 0,
+  "_shufflePeriod": 0.5,
+  "_previewStartTime": 37.633,
+  "_previewDuration": 20,
+  "_songFilename": "song.egg",
+  "_coverImageFilename": "cover.jpg",
+  "_environmentName": "TriangleEnvironment",
+  "_songTimeOffset": 0,
+  "_customData": {
+    "_contributors": [],
+    "_editors": {
+      "_lastEditedBy": "MMA2",
+      "MMA2": {
+        "version": "4.8.1"
+      },
+      "ChroMapper": {
+        "version": "0.8.510"
+      }
+    }
+  },
+  "_difficultyBeatmapSets": [
+    {
+      "_beatmapCharacteristicName": "Standard",
+      "_difficultyBeatmaps": [
+        {
+          "_difficulty": "Expert",
+          "_difficultyRank": 7,
+          "_beatmapFilename": "ExpertStandard.dat",
+          "_noteJumpMovementSpeed": 15,
+          "_noteJumpStartBeatOffset": -0.65,
+          "_customData": {
+            "_editorOffset": 0,
+            "_editorOldOffset": 0,
+            "_warnings": [],
+            "_information": [],
+            "_suggestions": [],
+            "_requirements": [],
+            "_envColorRight": {
+              "r": 0.8389999866485596,
+              "g": 0.8389999866485596,
+              "b": 0.8389999866485596
+            },
+            "_envColorLeft": {
+              "r": 0.16099999845027924,
+              "g": 0.21799999475479126,
+              "b": 1
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+[package]
+name = "bplist_downloader"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = {version = "0.11", features = ["stream", "blocking"]}
+tokio ={ version = "1", features = ["full"]}
+indicatif = "0.17.2"
+futures = "0.3"
+#bmbf_quest_utills = {git = "https://github.com/Illia-Dolzhenko/bmbf_quest_utills.git"}
+bmbf_quest_utills = {path = "../bmbf_quest_utills"}
+zip-extract = "0.1.1"
+chrono = "0.4.23"

@@ -1,0 +1,111 @@
+{
+  "_version": "2.0.0",
+  "_songName": "O Come, O Come Emmanuel",
+  "_songSubName": "",
+  "_songAuthorName": "Bad Religion",
+  "_levelAuthorName": "OneSpookyBoi",
+  "_beatsPerMinute": 182,
+  "_shuffle": 0,
+  "_shufflePeriod": 0,
+  "_previewStartTime": 12,
+  "_previewDuration": 14,
+  "_songFilename": "song.egg",
+  "_coverImageFilename": "cover.PNG",
+  "_environmentName": "PyroEnvironment",
+  "_allDirectionsEnvironmentName": "GlassDesertEnvironment",
+  "_songTimeOffset": 0,
+  "_difficultyBeatmapSets": [
+    {
+      "_beatmapCharacteristicName": "Standard",
+      "_difficultyBeatmaps": [
+        {
+          "_difficulty": "Hard",
+          "_difficultyRank": 5,
+          "_beatmapFilename": "Hard.dat",
+          "_noteJumpMovementSpeed": 14,
+          "_noteJumpStartBeatOffset": 0,
+          "_customData": {
+            "_colorRight": {
+              "r": 0,
+              "g": 0.788235294117647,
+              "b": 0
+            },
+            "_colorLeft": {
+              "r": 1,
+              "g": 0,
+              "b": 0.023529411764705882
+            },
+            "_envColorRight": {
+              "r": 0,
+              "g": 0.788235294117647,
+              "b": 0
+            },
+            "_envColorLeft": {
+              "r": 1,
+              "g": 0,
+              "b": 0.023529411764705882
+            }
+          }
+        },
+        {
+          "_difficulty": "Expert",
+          "_difficultyRank": 7,
+          "_beatmapFilename": "Expert.dat",
+          "_noteJumpMovementSpeed": 16,
+          "_noteJumpStartBeatOffset": 0,
+          "_customData": {
+            "_colorRight": {
+              "r": 0,
+              "g": 0.788235294117647,
+              "b": 0
+            },
+            "_colorLeft": {
+              "r": 1,
+              "g": 0,
+              "b": 0.023529411764705882
+            },
+            "_envColorRight": {
+              "r": 0,
+              "g": 0.788235294117647,
+              "b": 0
+            },
+            "_envColorLeft": {
+              "r": 1,
+              "g": 0,
+              "b": 0.023529411764705882
+            }
+          }
+        },
+        {
+          "_difficulty": "ExpertPlus",
+          "_difficultyRank": 9,
+          "_beatmapFilename": "ExpertPlus.dat",
+          "_noteJumpMovementSpeed": 16,
+          "_noteJumpStartBeatOffset": -0.335,
+          "_customData": {
+            "_colorRight": {
+              "r": 0,
+              "g": 0.788235294117647,
+              "b": 0
+            },
+            "_colorLeft": {
+              "r": 1,
+              "g": 0,
+              "b": 0.023529411764705882
+            },
+            "_envColorRight": {
+              "r": 0,
+              "g": 0.788235294117647,
+              "b": 0
+            },
+            "_envColorLeft": {
+              "r": 1,
+              "g": 0,
+              "b": 0.023529411764705882
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
