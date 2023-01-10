@@ -1,10 +1,11 @@
 use bmbf_quest_utills::Song;
+use bytes::Bytes;
 use futures::StreamExt;
 use indicatif::{ProgressBar, ProgressStyle};
 use reqwest::{blocking::Client, header::HeaderValue, StatusCode};
 use std::{
     fs::{self, File},
-    io::{Cursor, Write},
+    io::{Cursor, Read, Write},
     path::{Path, PathBuf},
 };
 use zip_extract::ZipExtractError;
@@ -36,14 +37,20 @@ pub async fn download_async(
     let mut file = File::create(&path).map_err(|_| format!("Failed to create file '{}'", &path))?;
     let mut downloaded: u64 = 0;
     let mut stream = res.bytes_stream();
+    let mut data: Vec<Bytes> = Vec::new();
 
     while let Some(item) = stream.next().await {
         let chunk = item.map_err(|_| "Error while downloading file")?;
-        file.write_all(&chunk)
-            .map_err(|_| "Error while writing to file")?;
+
         let new = std::cmp::min(downloaded + (chunk.len() as u64), total_size);
+        data.push(chunk);
         downloaded = new;
         progress_bar.set_position(new);
+    }
+
+    for chunk in data {
+        file.write_all(&chunk)
+            .map_err(|_| "Error while writing to file")?;
     }
 
     progress_bar.finish_with_message(format!("Downloaded {} to {}", url, path));
